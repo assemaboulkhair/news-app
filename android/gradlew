@@ -1,0 +1,4 @@
+#!/bin/sh
+# Flutter normally generates the Gradle wrapper for the installed Flutter SDK.
+# If this placeholder is reached, run: flutter create --platforms=android .
+exec gradle "$@"
